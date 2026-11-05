@@ -105,7 +105,7 @@ sequenceDiagram
 
     alt Skip whole assessment (3a)
         UI-->>M: General feed; assessment available later
-    else Continue
+    else Continue assessment
         loop Each section (4–6)
             M->>UI: Answer or skip items (4)
             opt Associated concern selected (revised 4a)
