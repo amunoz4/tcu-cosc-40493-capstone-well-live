@@ -47,9 +47,16 @@ Several documents end with a **"Working this document with your agent"** section
 - **Do not commit or push** unless the user asks. When asked, follow the workflow in the team contract.
 - **Never put secrets in the repository.** The architectural design says where they live.
 
+## Technology stack
+
+| Layer | Technology | Decision |
+|---|---|---|
+| Frontend client | Ionic with Vue | Ionic: `KD-frontend-framework` in [architectural design §9](docs/design/architectural-design.md#9-architecture-decisions). Vue: no `KD-*` yet |
+| Backend API | Spring Boot | No `KD-*` yet |
+
 ## Coding conventions
 
-_To be written once the technology stack is decided and recorded as a `KD-*` in [architectural design §9](docs/design/architectural-design.md#9-architecture-decisions). Until then there are no conventions to follow; do not adopt a stack, framework, or style on your own._
+_To be written. Until then there are no conventions to follow; do not adopt a framework or style beyond the technology stack above on your own._
 
 ## Build and test
 
