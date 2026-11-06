@@ -16,11 +16,55 @@ import {
 const questions = [
   {
     id: "wellbeing-01",
-    text: "Exact questionnaire question goes here",
+    text: "Are you experiencing any memory difficulties?",
   },
   {
     id: "wellbeing-02",
-    text: "Next exact questionnaire question goes here",
+    text: "Trouble concentrating on tasks or conversations?",
+  },
+   {
+    id: "wellbeing-02",
+    text: "Mood swings or changes in personality?",
+  },
+   {
+    id: "wellbeing-02",
+    text: "Feeling tired or lacking energy?",
+  },
+   {
+    id: "wellbeing-02",
+    text: "Muscle Tension or stiffness?",
+  },
+   {
+    id: "wellbeing-02",
+    text: "Tremors or involuntary movements?",
+  },
+   {
+    id: "wellbeing-02",
+    text: "Weakness or loss of strength in any part of the body?",
+  },
+   {
+    id: "wellbeing-02",
+    text: "Dizziness or balance problems?",
+  },
+   {
+    id: "wellbeing-02",
+    text: "Vertigo or spinning sensation?",
+  },
+   {
+    id: "wellbeing-02",
+    text: "Ringing in the ears (tinnitus)?",
+  },
+   {
+    id: "wellbeing-02",
+    text: "Breathing difficulties or shortness of breath?",
+  },
+   {
+    id: "wellbeing-02",
+    text: "Swelling in any part of the body?",
+  },
+   {
+    id: "wellbeing-02",
+    text: "Changes in skin or nails(Color, texture, or appearance)?",
   },
 ];
 
@@ -36,7 +80,7 @@ const Home: React.FC = () => {
       </IonHeader>
 
       <IonContent className="ion-padding">
-        <h2>Assessment</h2>
+        <h2>Health Assessment</h2>
 
         {questions.map((question) => (
           <IonRadioGroup
