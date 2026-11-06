@@ -104,7 +104,7 @@ sequenceDiagram
     API-->>UI: Definition and explanation (2–3)
 
     alt Skip whole assessment (3a)
-        UI-->>M: General feed; assessment available later
+        UI-->>M: General feed, assessment available later
     else Continue assessment
         loop Each section (4–6)
             M->>UI: Answer or skip items (4)
